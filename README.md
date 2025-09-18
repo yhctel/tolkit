@@ -1,2 +1,1 @@
-# toolkit
-Trabalho de Computação Científica
+# Trabalho
