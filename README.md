@@ -2,4 +2,3 @@
 
 - Letícia Lindberght
 - Gabriel Danny
-- Alan de Souza
