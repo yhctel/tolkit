@@ -13,9 +13,14 @@ class Menu
             Console.WriteLine("3) Decisor: termina com 'b'?");
             Console.WriteLine("4) Avaliador de Proposição (P,Q,R)");
             Console.WriteLine("5) Reconhecedor: L_par_a e a b*");
+            Console.WriteLine("6) Problema (P) vs. Instância (I)");
+            Console.WriteLine("7) Decisores adicionais sobre Σ={a,b}");
+            Console.WriteLine("8) Reconhecedor que pode não terminar");
+            Console.WriteLine("9) Detector ingênuo de loop em processo discreto");
+            Console.WriteLine("10) Simulador de AFD de casos fixos");
             Console.WriteLine("0) Sair");
 
-            int opcao = LerOpcaoDoMenu(0, 5);
+            int opcao = LerOpcaoDoMenu(0, 10);
             Console.WriteLine();
 
             if (opcao == 0) return;
@@ -24,6 +29,11 @@ class Menu
             if (opcao == 3) Aula03.Executar();
             if (opcao == 4) Aula04.Executar();
             if (opcao == 5) Aula05.Executar();
+            if (opcao == 6) Aula06.Executar();
+            if (opcao == 7) Aula07.Executar();
+            if (opcao == 8) Aula08.Executar();
+            if (opcao == 9) Aula09.Executar();
+            if (opcao == 10) Aula10.Executar();
 
             Console.WriteLine();
         }

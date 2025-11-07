@@ -1,0 +1,24 @@
+```gitignore
+# Arquivos de dependências e pacotes
+**/[Pp]ackages/
+**/[Nn]u[Gg]et.[Cc]onfig
+**/[Nn]u[Gg]et.[Tt]argets
+
+# Pastas de compilação e build
+**/[Bb]in/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Oo]bj/
+
+# Arquivos de configuração do Visual Studio e do usuário
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Outros
+*.dll
+*.exe
+*.pdb
+*.cache
